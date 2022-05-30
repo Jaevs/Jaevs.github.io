@@ -61,7 +61,7 @@
     
                     <div class="food-menu-desc">
                         <h3>Yi Fang Tea</h3>
-                        <p class="food-price">₱100</p>
+                        <p class="food-price">₱89</p>
 
                         <div class="order-label">Quantity</div>
                         <input type="number" name="qty" class="input-responsive" value="1" required>
@@ -70,27 +70,34 @@
 
                 </fieldset>
                 
-                <fieldset>
+                <fieldset class="container">
                     <legend>Delivery Details</legend>
+
+                    <div class="order-label">Confirm Your Order</div>
+                    <textarea type="text" name="Order" placeholder="E.g. Yi Fang Tea" class="input-responsive" required></textarea>
+                    
                     <div class="order-label">Full Name</div>
-                    <input type="text" name="full-name" placeholder="E.g. Vijay Thapa" class="input-responsive" required>
+                    <input type="text" name="full-name" placeholder="E.g. Kennetsu Kamatsu" class="input-responsive" required>
 
                     <div class="order-label">Phone Number</div>
-                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+                    <input type="tel" name="contact" placeholder="E.g. 09123xxxxxx" class="input-responsive" required>
 
                     <div class="order-label">Email</div>
-                    <input type="email" name="email" placeholder="E.g. hi@vijaythapa.com" class="input-responsive" required>
+                    <input type="email" name="email" placeholder="E.g. jaevs@gmail.com" class="input-responsive" required>
 
                     <div class="order-label">Address</div>
-                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+                    <textarea name="address" rows="10" placeholder="E.g. Unit/Room No./Floor, Building Name, House Number, Street, Subdivision, Barangay, Municipality/City, Province/State/Country" class="input-responsive" required></textarea>
 
-                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                    <button type="submit" name="submit" value="Confirm Order" class="btn btn-primary">Confirm Order</button>
+                    
                 </fieldset>
+
+             
 
             </form>
 
         </div>
-    </div>
+        </div>
     </section>
     <!-- fOOD sEARCH Section Ends Here -->
 
